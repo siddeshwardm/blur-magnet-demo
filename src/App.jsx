@@ -3,7 +3,7 @@ import MagnetLines from "./components/MagnetLines";
 
 function App() {
   return (
-    <div style={{ padding: "40px", fontSize: "24px" }}>
+    <div style={{ padding: "40px", fontSize: "24px", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", minHeight: "100vh" }}>
       {/* Task A */}
       <h2>Blur Text Demo</h2>
 
