@@ -1,0 +1,16 @@
+.magnet-container {
+  width: 100%;
+  max-width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 20px;
+}
+
+.magnet-line {
+  height: 2px;
+  background-color: #333;
+  transition: transform 0.2s ease-out;
+}
