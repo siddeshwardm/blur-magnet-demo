@@ -1,16 +1,65 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Blur Text & Magnet Lines – React UI Demo
 
-Currently, two official plugins are available:
+This repository demonstrates two modern UI micro-interactions built using React and Vite.
+The goal of this project is to showcase clean component design, hover & cursor-based effects, and interview-ready frontend skills.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Projects Included
+1. Blur Text
 
-## React Compiler
+A reusable text component where:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  Text appears blurred initially
+  
+  Becomes sharp on hover
+  
+  Can also be controlled via a prop
 
-## Expanding the ESLint configuration
+2. Magnet Lines
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A visual interaction where:
+
+  Multiple horizontal lines are displayed
+  
+  Lines subtly move toward the cursor
+  
+  Creates a smooth magnetic effect
+
+
+Tech Stack
+
+  React
+  
+  Vite
+  
+  JavaScript
+
+CSS (no external animation libraries)
+
+
+Follow the steps below to run the project locally.
+
+Clone the Repository
+git clone https://github.com/siddeshwardm/blur-magnet-demo.git
+
+Navigate into the Project Directory
+cd blur-magnet-demo
+
+Install Required Packages
+npm install
+
+Run the Development Server
+npm run dev
+
+
+Project Structure (Simplified)
+src/
+ ├── components/
+ │   ├── BlurText.jsx
+ │   ├── BlurText.css
+ │   ├── MagnetLines.jsx
+ │   └── MagnetLines.css
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
