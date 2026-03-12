@@ -2,6 +2,8 @@
 
 Blur Text & Magnet Lines – React UI Demo
 
+live here : https://blur-magnet-demo.vercel.app/
+
 This repository demonstrates two modern UI micro-interactions built using React and Vite.
 The goal of this project is to showcase clean component design, hover & cursor-based effects, and interview-ready frontend skills.
 
